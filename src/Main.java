@@ -52,6 +52,9 @@ public class Main {
 
                 personaje_jugador.setear_vida(Integer.parseInt(scanner.nextLine()));
 
+                System.out.println("Asignarle la edad al personaje: ");
+                personaje_jugador.setear_edad(Integer.parseInt(scanner.nextLine()));
+
 
                 System.out.println("Personaje creado exitosamente!");
                 break;
@@ -67,6 +70,8 @@ public class Main {
                 System.out.println("El nombre del personaje es " + personaje_jugador.nombre);
                 System.out.println("El apellido del personaje es " + personaje_jugador.apellido);
                 System.out.println("La vida del personaje es " + personaje_jugador.obtener_vida());
+                System.out.println("La edad del personaje es "+ personaje_jugador.obtener_edad());
+                
                 break;
 
             case "3":
