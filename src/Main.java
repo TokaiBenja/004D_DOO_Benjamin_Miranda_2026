@@ -117,6 +117,10 @@ public class Main {
             default:
                 System.out.println("Ingrese una opción valida.");
                 break;
+
+            case "4":
+                amaro.trabajar();
+                mati.trabajar();;
         }
             
         }

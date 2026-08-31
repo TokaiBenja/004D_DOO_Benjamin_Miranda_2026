@@ -90,5 +90,12 @@ public class Personaje {
         public String obtener_clase(){
         return this.clase;
         }
+
+
+        public void trabajar(){
+
+            System.out.println("Chambeando");
+        }
+
 }
 
